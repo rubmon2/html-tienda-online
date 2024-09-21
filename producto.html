@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Ends Store</title>
+
+      <!--normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--letra staatliches-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Krub:ital,wght@0,700;1,400&family=Permanent+Marker&family=Quicksand:wght@500&family=Russo+One&family=Staatliches&display=swap" rel="stylesheet">
+   <!--hoja estilo-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+
+        <a class="navegacion__enlace " href="index.html"> Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html"> Nosotros</a>
+    </nav>
+
+
+    <main class="contenedor">
+
+            <h1 class="contenedor__h1">ReactJS</h1>
+
+            <div class="camisa">
+                <div class="camisa__imagen">
+                    <img src="img/3.jpg" alt=" imagen del producto">
+
+                </div> <!--fin div camisa imagen-->
+
+
+                <div class="camisa__contenido">
+                    <p>Lorem Ipsum is simply dummy text of the printing and 
+                        dummy text of the printing and dummy text of the printing and t
+                         typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an un</p>
+            
+                
+
+                <form class="formulario">
+
+                   <select class="formulario__campo" >
+                    <option disabled selected> Seleccionar Talla </option>
+                    <option value=""> Chica </option>
+                    <option value=""> Mediana </option>
+                    <option value=""> Grande </option>
+                   </select>
+                   
+                   <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                   <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                   
+                </form> 
+
+            </div> <!--fin div camisa contenido-->
+
+            </div><!--Fin DIV CAMISA-->
+
+
+
+    </main>
+    
+</body>
+
+<footer class="footer">  
+
+    <p class="footer__texto"> Front end store - Todos los derechos reservados</p>
+
+
+</footer>
+</html>
